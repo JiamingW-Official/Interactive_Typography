@@ -1,0 +1,10 @@
+html, body {
+    margin: 0; padding: 0;
+    height: 100%; overflow-x: hidden;
+    font-family: sans-serif;
+  }
+  #container { height: 300vh; }
+  canvas {
+    position: fixed; top: 0; left: 0;
+    z-index: -1;
+  }
